@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible">
     <title>My test page</title>
-    <button>切换用户</button>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs
+/jquery/1.4.0/jquery.min.js"></script>
     <script src="scripts/main.js" defer>
     </script>
     <link href=" https://fonts.font.im/css?family=Open+Sans" rel="stylesheet" type="text/css">
@@ -12,16 +15,14 @@
 </head>
 
 <body>
-    <h1>做网站真的酷弊了!</h1>
-    <img src=" images/1.jpg" alt="My test image">
-    <p>我的猫咪脾气<strong>爆！</strong>:)</p>
-    <p>这是一个网站的测试!</p>
-    <p>这是一个列表的测试!</p>
-    <ol>
-        <li>这是第一个测试!</li>
-        <li>这是第二个测试!</li>
-    </ol>
-    <a href="https://www.mozilla.org/zh-CN/about/manifesto">Mozilla宣言</a>
+    <div class="container">
+        <form action="#" class="login-form">
+            <h2>登录</h2>
+            <input id="username" type="text" placeholder="用户名">
+            <input id="password" type="text" placeholder="密码">
+            <button type="submit">登录</button>
+        </form>
+    </div>
 </body>
 
 </html>
