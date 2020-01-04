@@ -8,5 +8,6 @@ mybutton.onclick = function() {
   else {
     alert('登录成功！若未进入请再登录一次试试！');
     top.location.href = 'test.html';
+    top.event.returnValue = false;
   }
 }
