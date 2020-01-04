@@ -1,5 +1,5 @@
 document.querySelector('img').onclick = function() {
-  alert('ÇĞ»»Í¼Æ¬£¡Èç¹ûÃ»ÓĞÇĞ»»ÇëÔÙµãÒ»´Î£¡');
+  alert('åˆ‡æ¢å›¾ç‰‡ï¼å¦‚æœæ²¡æœ‰åˆ‡æ¢è¯·å†ç‚¹ä¸€æ¬¡ï¼');
   if (document.querySelector('img').getAttribute('src') === 'images/1.jpg') {
     document.querySelector('img').setAttribute('src', 'images/2.png');
   } else {
@@ -9,7 +9,7 @@ document.querySelector('img').onclick = function() {
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
 function setUserName() {
-  let myName = prompt('ÇëÊäÈëÄãµÄÃû×Ö');
+  let myName = prompt('è¯·è¾“å…¥ä½ çš„åå­—');
   if (!myName || myName === null) {
     setUserName();
   } else {
