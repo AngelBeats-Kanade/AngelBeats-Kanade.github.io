@@ -5,6 +5,9 @@ html{
     background: url('../images/2.png') fixed no-repeat;
     background-size: cover;
 }
+audio{
+    width: 80px;
+}
 img{
     display: block;
     margin: 0 auto;
@@ -19,6 +22,9 @@ h1{
     text-shadow: 3px 3px 1px black;
 }
 h2{
+    font-size: 14px;
+}
+h3{
     font-size: 14px;
     text-align: center;
 }
