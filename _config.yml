@@ -9,7 +9,7 @@ googleplus_username: google
 head-title: AngelBeats-Kanade blog
 title: AngelBeats-Kanade
 
-baseurl: ""    # the subpath of your site, "/blog"
+baseurl: ""    # the subpath of your site, ""
 url: ""
 
 # footer
